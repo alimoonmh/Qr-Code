@@ -1,5 +1,7 @@
-# Qr-Code-Project
-  
+<h1 align="center">Qr Code </h1>
+
+
+![smartmockups_ll2i6odh](https://github.com/alimoonmh/Qr-Code/assets/113533131/88729508-b1ba-4d1d-b5b2-cfd57a673972)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)  ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)  
 
 <h1 align="center">Intro</h1>
@@ -13,7 +15,4 @@ npm install
 npm run dev
  ```
 
-<h1 align="center">Screen Shots</h1>
 
-
-![JL1kNS9BYBn](https://github.com/alimoonmh/Qr-Code/assets/113533131/d2efb309-df5f-44a2-bd22-004bfdbb51db)
