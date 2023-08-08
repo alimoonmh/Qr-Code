@@ -12,3 +12,8 @@
 npm install
 npm run dev
  ```
+
+<h1 align="center">Screen Shots</h1>
+
+
+![JL1kNS9BYBn](https://github.com/alimoonmh/Qr-Code/assets/113533131/d2efb309-df5f-44a2-bd22-004bfdbb51db)
