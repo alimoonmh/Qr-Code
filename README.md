@@ -11,6 +11,7 @@
 
  ### To Start:
  ```
+cd Qr-Code-master
 npm install
-
+npm run dev
  ```
