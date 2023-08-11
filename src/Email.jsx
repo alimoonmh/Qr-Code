@@ -65,7 +65,7 @@ function Email() {
   function handelurl() {
     console.log("aaaa")
     if (url.includes('@') && url.includes('.com')) {
-      setAdd(`mailto:${url}`)
+      setAdd(`mailto:${url}?subject=${subject}&body=${message}`)
     } else {
       toast.error('Enter Email', {
         position: "top-right",
@@ -89,6 +89,8 @@ function Email() {
     setImage] = useState('')
   const [radius,
     setRadius] = useState(0)
+    const [subject , setSubject] = useState('')
+    const [message , setMessage] = useState('')
   return (
     <div>
       <div
@@ -124,6 +126,33 @@ function Email() {
                   value={url}
                   className='w-[100%]'
                   label="Email Address"
+                  variant="outlined"/>
+              </div>
+              <div>
+                <h1 className='text-[#007D51]'>Subject
+                </h1>
+              </div>
+              <div>
+                <TextField
+                  onChange={(s) => {
+                  setSubject(s.target.value)
+                }}
+                  value={subject}
+                  className='w-[100%]'
+                  label="Subject"
+                  variant="outlined"/>
+              </div> <div>
+                <h1 className='text-[#007D51]'>Message
+                </h1>
+              </div>
+              <div>
+                <TextField
+                  onChange={(m) => {
+                  setMessage(m.target.value)
+                }}
+                  value={message}
+                  className='w-[100%]'
+                  label="Message"
                   variant="outlined"/>
               </div>
               <Button
